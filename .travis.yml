@@ -1,4 +1,5 @@
 language: swift
-xcode_project: OptionSelector.xcworkspace
+osx_image: xcode10.2
+xcode_project: OptionSelector.xcodeproj
 xcode_scheme: OptionSelector iOS
-xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
+xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone Xs
