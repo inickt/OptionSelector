@@ -1,13 +1,13 @@
 //
 //  TestMultiOptionSelector.swift
-//  OptionSelector iOS Tests
+//  OptionSelector Tests
 //
 //  Created by Nick Thompson on 3/31/19.
 //  Copyright © 2019 Nick Thompson. All rights reserved.
 //
 
 import XCTest
-import OptionSelector
+@testable import OptionSelector
 
 class TestMultiOptionSelector: XCTestCase {
 

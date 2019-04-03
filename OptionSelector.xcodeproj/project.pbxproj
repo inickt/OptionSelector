@@ -21,6 +21,28 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		01023D402254434A00E9C34C /* OptionSelector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01023D372254434A00E9C34C /* OptionSelector.framework */; };
+		01023D4E2254458700E9C34C /* OptionSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 01FE0D382251627700D88D84 /* OptionSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01023D4F2254458700E9C34C /* OptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D41225162C900D88D84 /* OptionSelector.swift */; };
+		01023D502254458700E9C34C /* AnyOptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D432251639800D88D84 /* AnyOptionSelector.swift */; };
+		01023D512254458700E9C34C /* MultiOptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D452251640100D88D84 /* MultiOptionSelector.swift */; };
+		01023D522254458700E9C34C /* SingleOptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D472251640D00D88D84 /* SingleOptionSelector.swift */; };
+		01023D532254458700E9C34C /* SingularOptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D4B225164EE00D88D84 /* SingularOptionSelector.swift */; };
+		01023D572254472C00E9C34C /* TestMultiOptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D69225178CB00D88D84 /* TestMultiOptionSelector.swift */; };
+		01023D672254481800E9C34C /* OptionSelector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01023D5E2254481800E9C34C /* OptionSelector.framework */; };
+		01023D752254487500E9C34C /* OptionSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 01FE0D382251627700D88D84 /* OptionSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01023D762254487500E9C34C /* OptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D41225162C900D88D84 /* OptionSelector.swift */; };
+		01023D772254487500E9C34C /* AnyOptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D432251639800D88D84 /* AnyOptionSelector.swift */; };
+		01023D782254487500E9C34C /* MultiOptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D452251640100D88D84 /* MultiOptionSelector.swift */; };
+		01023D792254487500E9C34C /* SingleOptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D472251640D00D88D84 /* SingleOptionSelector.swift */; };
+		01023D7A2254487500E9C34C /* SingularOptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D4B225164EE00D88D84 /* SingularOptionSelector.swift */; };
+		01023D7B2254487B00E9C34C /* TestMultiOptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D69225178CB00D88D84 /* TestMultiOptionSelector.swift */; };
+		01023D892254491000E9C34C /* OptionSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 01FE0D382251627700D88D84 /* OptionSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01023D8A2254491000E9C34C /* OptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D41225162C900D88D84 /* OptionSelector.swift */; };
+		01023D8B2254491000E9C34C /* AnyOptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D432251639800D88D84 /* AnyOptionSelector.swift */; };
+		01023D8C2254491000E9C34C /* MultiOptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D452251640100D88D84 /* MultiOptionSelector.swift */; };
+		01023D8D2254491000E9C34C /* SingleOptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D472251640D00D88D84 /* SingleOptionSelector.swift */; };
+		01023D8E2254491000E9C34C /* SingularOptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D4B225164EE00D88D84 /* SingularOptionSelector.swift */; };
 		01FE0D3A2251627700D88D84 /* OptionSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 01FE0D382251627700D88D84 /* OptionSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01FE0D42225162C900D88D84 /* OptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D41225162C900D88D84 /* OptionSelector.swift */; };
 		01FE0D442251639800D88D84 /* AnyOptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D432251639800D88D84 /* AnyOptionSelector.swift */; };
@@ -34,6 +56,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		01023D412254434A00E9C34C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01FE0D2C2251627700D88D84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01023D362254434A00E9C34C;
+			remoteInfo = "OptionSelector Mac";
+		};
+		01023D682254481800E9C34C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01FE0D2C2251627700D88D84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01023D5D2254481800E9C34C;
+			remoteInfo = "OptionSelector tvOS";
+		};
 		01FE0D642251788000D88D84 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 01FE0D2C2251627700D88D84 /* Project object */;
@@ -44,22 +80,69 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01023D372254434A00E9C34C /* OptionSelector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptionSelector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01023D3A2254434A00E9C34C /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
+		01023D3F2254434A00E9C34C /* OptionSelector macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OptionSelector macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01023D462254434A00E9C34C /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
+		01023D5E2254481800E9C34C /* OptionSelector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptionSelector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01023D612254481800E9C34C /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		01023D662254481800E9C34C /* OptionSelector tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OptionSelector tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01023D6D2254481800E9C34C /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		01023D81225448D200E9C34C /* OptionSelector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptionSelector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01023D84225448D200E9C34C /* Info-watchOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
 		01FE0D352251627700D88D84 /* OptionSelector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptionSelector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		01FE0D382251627700D88D84 /* OptionSelector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptionSelector.h; sourceTree = "<group>"; };
+		01FE0D382251627700D88D84 /* OptionSelector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OptionSelector.h; path = OptionSelector/OptionSelector.h; sourceTree = "<group>"; };
 		01FE0D392251627700D88D84 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
-		01FE0D41225162C900D88D84 /* OptionSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionSelector.swift; sourceTree = "<group>"; };
-		01FE0D432251639800D88D84 /* AnyOptionSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyOptionSelector.swift; sourceTree = "<group>"; };
-		01FE0D452251640100D88D84 /* MultiOptionSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiOptionSelector.swift; sourceTree = "<group>"; };
-		01FE0D472251640D00D88D84 /* SingleOptionSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleOptionSelector.swift; sourceTree = "<group>"; };
-		01FE0D4B225164EE00D88D84 /* SingularOptionSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingularOptionSelector.swift; sourceTree = "<group>"; };
-		01FE0D4F22516C9E00D88D84 /* OptionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionTableViewController.swift; sourceTree = "<group>"; };
-		01FE0D5122516CF900D88D84 /* OptionSelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionSelectorCell.swift; sourceTree = "<group>"; };
+		01FE0D41225162C900D88D84 /* OptionSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OptionSelector.swift; path = OptionSelector/OptionSelector.swift; sourceTree = "<group>"; };
+		01FE0D432251639800D88D84 /* AnyOptionSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnyOptionSelector.swift; path = OptionSelector/AnyOptionSelector.swift; sourceTree = "<group>"; };
+		01FE0D452251640100D88D84 /* MultiOptionSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MultiOptionSelector.swift; path = OptionSelector/MultiOptionSelector.swift; sourceTree = "<group>"; };
+		01FE0D472251640D00D88D84 /* SingleOptionSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SingleOptionSelector.swift; path = OptionSelector/SingleOptionSelector.swift; sourceTree = "<group>"; };
+		01FE0D4B225164EE00D88D84 /* SingularOptionSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SingularOptionSelector.swift; path = OptionSelector/SingularOptionSelector.swift; sourceTree = "<group>"; };
+		01FE0D4F22516C9E00D88D84 /* OptionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OptionTableViewController.swift; path = ../OptionSelector/iOS/OptionTableViewController.swift; sourceTree = "<group>"; };
+		01FE0D5122516CF900D88D84 /* OptionSelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OptionSelectorCell.swift; path = ../OptionSelector/iOS/OptionSelectorCell.swift; sourceTree = "<group>"; };
 		01FE0D5E2251788000D88D84 /* OptionSelector iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OptionSelector iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01FE0D622251788000D88D84 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		01FE0D69225178CB00D88D84 /* TestMultiOptionSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMultiOptionSelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		01023D342254434A00E9C34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01023D3C2254434A00E9C34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01023D402254434A00E9C34C /* OptionSelector.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01023D5B2254481800E9C34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01023D632254481800E9C34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01023D672254481800E9C34C /* OptionSelector.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01023D7E225448D200E9C34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		01FE0D322251627700D88D84 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -78,10 +161,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01023D312254430E00E9C34C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				01FE0D5122516CF900D88D84 /* OptionSelectorCell.swift */,
+				01FE0D4F22516C9E00D88D84 /* OptionTableViewController.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		01023D582254476400E9C34C /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
 		0130C5DA2251A50C00609F6D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				01FE0D622251788000D88D84 /* Info-iOS.plist */,
+				01023D462254434A00E9C34C /* Info-macOS.plist */,
+				01023D6D2254481800E9C34C /* Info-tvOS.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -100,6 +201,11 @@
 			children = (
 				01FE0D352251627700D88D84 /* OptionSelector.framework */,
 				01FE0D5E2251788000D88D84 /* OptionSelector iOS Tests.xctest */,
+				01023D372254434A00E9C34C /* OptionSelector.framework */,
+				01023D3F2254434A00E9C34C /* OptionSelector macOS Tests.xctest */,
+				01023D5E2254481800E9C34C /* OptionSelector.framework */,
+				01023D662254481800E9C34C /* OptionSelector tvOS Tests.xctest */,
+				01023D81225448D200E9C34C /* OptionSelector.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +213,8 @@
 		01FE0D372251627700D88D84 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				01023D312254430E00E9C34C /* iOS */,
+				01023D582254476400E9C34C /* macOS */,
 				01FE0D5422516E5800D88D84 /* Supporting Files */,
 				01FE0D382251627700D88D84 /* OptionSelector.h */,
 				01FE0D41225162C900D88D84 /* OptionSelector.swift */,
@@ -114,8 +222,6 @@
 				01FE0D452251640100D88D84 /* MultiOptionSelector.swift */,
 				01FE0D472251640D00D88D84 /* SingleOptionSelector.swift */,
 				01FE0D4B225164EE00D88D84 /* SingularOptionSelector.swift */,
-				01FE0D5122516CF900D88D84 /* OptionSelectorCell.swift */,
-				01FE0D4F22516C9E00D88D84 /* OptionTableViewController.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -133,6 +239,9 @@
 			isa = PBXGroup;
 			children = (
 				01FE0D392251627700D88D84 /* Info-iOS.plist */,
+				01023D3A2254434A00E9C34C /* Info-macOS.plist */,
+				01023D612254481800E9C34C /* Info-tvOS.plist */,
+				01023D84225448D200E9C34C /* Info-watchOS.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +249,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		01023D322254434A00E9C34C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01023D4E2254458700E9C34C /* OptionSelector.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01023D592254481800E9C34C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01023D752254487500E9C34C /* OptionSelector.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01023D7C225448D200E9C34C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01023D892254491000E9C34C /* OptionSelector.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		01FE0D302251627700D88D84 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -151,6 +284,96 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		01023D362254434A00E9C34C /* OptionSelector macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01023D482254434A00E9C34C /* Build configuration list for PBXNativeTarget "OptionSelector macOS" */;
+			buildPhases = (
+				01023D322254434A00E9C34C /* Headers */,
+				01023D332254434A00E9C34C /* Sources */,
+				01023D342254434A00E9C34C /* Frameworks */,
+				01023D352254434A00E9C34C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OptionSelector macOS";
+			productName = "OptionSelector Mac";
+			productReference = 01023D372254434A00E9C34C /* OptionSelector.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		01023D3E2254434A00E9C34C /* OptionSelector macOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01023D4B2254434A00E9C34C /* Build configuration list for PBXNativeTarget "OptionSelector macOS Tests" */;
+			buildPhases = (
+				01023D3B2254434A00E9C34C /* Sources */,
+				01023D3C2254434A00E9C34C /* Frameworks */,
+				01023D3D2254434A00E9C34C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01023D422254434A00E9C34C /* PBXTargetDependency */,
+			);
+			name = "OptionSelector macOS Tests";
+			productName = "OptionSelector MacTests";
+			productReference = 01023D3F2254434A00E9C34C /* OptionSelector macOS Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01023D5D2254481800E9C34C /* OptionSelector tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01023D6F2254481800E9C34C /* Build configuration list for PBXNativeTarget "OptionSelector tvOS" */;
+			buildPhases = (
+				01023D592254481800E9C34C /* Headers */,
+				01023D5A2254481800E9C34C /* Sources */,
+				01023D5B2254481800E9C34C /* Frameworks */,
+				01023D5C2254481800E9C34C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OptionSelector tvOS";
+			productName = "OptionSelector tvOS";
+			productReference = 01023D5E2254481800E9C34C /* OptionSelector.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		01023D652254481800E9C34C /* OptionSelector tvOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01023D722254481800E9C34C /* Build configuration list for PBXNativeTarget "OptionSelector tvOS Tests" */;
+			buildPhases = (
+				01023D622254481800E9C34C /* Sources */,
+				01023D632254481800E9C34C /* Frameworks */,
+				01023D642254481800E9C34C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01023D692254481800E9C34C /* PBXTargetDependency */,
+			);
+			name = "OptionSelector tvOS Tests";
+			productName = "OptionSelector tvOSTests";
+			productReference = 01023D662254481800E9C34C /* OptionSelector tvOS Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01023D80225448D200E9C34C /* OptionSelector watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01023D86225448D200E9C34C /* Build configuration list for PBXNativeTarget "OptionSelector watchOS" */;
+			buildPhases = (
+				01023D7C225448D200E9C34C /* Headers */,
+				01023D7D225448D200E9C34C /* Sources */,
+				01023D7E225448D200E9C34C /* Frameworks */,
+				01023D7F225448D200E9C34C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OptionSelector watchOS";
+			productName = "OptionSelector watchOS";
+			productReference = 01023D81225448D200E9C34C /* OptionSelector.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		01FE0D342251627700D88D84 /* OptionSelector iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01FE0D3D2251627700D88D84 /* Build configuration list for PBXNativeTarget "OptionSelector iOS" */;
@@ -197,6 +420,21 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Nick Thompson";
 				TargetAttributes = {
+					01023D362254434A00E9C34C = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					01023D3E2254434A00E9C34C = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					01023D5D2254481800E9C34C = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					01023D652254481800E9C34C = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					01023D80225448D200E9C34C = {
+						CreatedOnToolsVersion = 10.2;
+					};
 					01FE0D342251627700D88D84 = {
 						CreatedOnToolsVersion = 10.2;
 						LastSwiftMigration = 1020;
@@ -223,12 +461,52 @@
 			targets = (
 				01FE0D342251627700D88D84 /* OptionSelector iOS */,
 				01FE0D5D2251788000D88D84 /* OptionSelector iOS Tests */,
+				01023D362254434A00E9C34C /* OptionSelector macOS */,
+				01023D3E2254434A00E9C34C /* OptionSelector macOS Tests */,
+				01023D5D2254481800E9C34C /* OptionSelector tvOS */,
+				01023D652254481800E9C34C /* OptionSelector tvOS Tests */,
+				01023D80225448D200E9C34C /* OptionSelector watchOS */,
 				01FE0D5522516F0D00D88D84 /* SwiftLint */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		01023D352254434A00E9C34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01023D3D2254434A00E9C34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01023D5C2254481800E9C34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01023D642254481800E9C34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01023D7F225448D200E9C34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		01FE0D332251627700D88D84 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -266,6 +544,58 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		01023D332254434A00E9C34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01023D502254458700E9C34C /* AnyOptionSelector.swift in Sources */,
+				01023D522254458700E9C34C /* SingleOptionSelector.swift in Sources */,
+				01023D512254458700E9C34C /* MultiOptionSelector.swift in Sources */,
+				01023D4F2254458700E9C34C /* OptionSelector.swift in Sources */,
+				01023D532254458700E9C34C /* SingularOptionSelector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01023D3B2254434A00E9C34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01023D572254472C00E9C34C /* TestMultiOptionSelector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01023D5A2254481800E9C34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01023D772254487500E9C34C /* AnyOptionSelector.swift in Sources */,
+				01023D792254487500E9C34C /* SingleOptionSelector.swift in Sources */,
+				01023D782254487500E9C34C /* MultiOptionSelector.swift in Sources */,
+				01023D762254487500E9C34C /* OptionSelector.swift in Sources */,
+				01023D7A2254487500E9C34C /* SingularOptionSelector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01023D622254481800E9C34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01023D7B2254487B00E9C34C /* TestMultiOptionSelector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01023D7D225448D200E9C34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01023D8B2254491000E9C34C /* AnyOptionSelector.swift in Sources */,
+				01023D8D2254491000E9C34C /* SingleOptionSelector.swift in Sources */,
+				01023D8C2254491000E9C34C /* MultiOptionSelector.swift in Sources */,
+				01023D8A2254491000E9C34C /* OptionSelector.swift in Sources */,
+				01023D8E2254491000E9C34C /* SingularOptionSelector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		01FE0D312251627700D88D84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -291,6 +621,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		01023D422254434A00E9C34C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01023D362254434A00E9C34C /* OptionSelector macOS */;
+			targetProxy = 01023D412254434A00E9C34C /* PBXContainerItemProxy */;
+		};
+		01023D692254481800E9C34C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01023D5D2254481800E9C34C /* OptionSelector tvOS */;
+			targetProxy = 01023D682254481800E9C34C /* PBXContainerItemProxy */;
+		};
 		01FE0D652251788000D88D84 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 01FE0D342251627700D88D84 /* OptionSelector iOS */;
@@ -299,6 +639,248 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		01023D492254434A00E9C34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Source/Info-macOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.nickt.OptionSelector;
+				PRODUCT_NAME = OptionSelector;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		01023D4A2254434A00E9C34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Source/Info-macOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.nickt.OptionSelector;
+				PRODUCT_NAME = OptionSelector;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		01023D4C2254434A00E9C34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests/Info-macOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nickt.OptionSelector-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		01023D4D2254434A00E9C34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests/Info-macOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nickt.OptionSelector-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		01023D702254481800E9C34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Source/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nickt.OptionSelector-tvOS";
+				PRODUCT_NAME = OptionSelector;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.2;
+			};
+			name = Debug;
+		};
+		01023D712254481800E9C34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Source/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nickt.OptionSelector-tvOS";
+				PRODUCT_NAME = OptionSelector;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.2;
+			};
+			name = Release;
+		};
+		01023D732254481800E9C34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests/Info-tvOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nickt.OptionSelector-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.2;
+			};
+			name = Debug;
+		};
+		01023D742254481800E9C34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests/Info-tvOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nickt.OptionSelector-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.2;
+			};
+			name = Release;
+		};
+		01023D87225448D200E9C34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Source/Info-watchOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nickt.OptionSelector-watchOS";
+				PRODUCT_NAME = OptionSelector;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		01023D88225448D200E9C34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Source/Info-watchOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nickt.OptionSelector-watchOS";
+				PRODUCT_NAME = OptionSelector;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
 		01FE0D3B2251627700D88D84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -531,6 +1113,51 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		01023D482254434A00E9C34C /* Build configuration list for PBXNativeTarget "OptionSelector macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01023D492254434A00E9C34C /* Debug */,
+				01023D4A2254434A00E9C34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01023D4B2254434A00E9C34C /* Build configuration list for PBXNativeTarget "OptionSelector macOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01023D4C2254434A00E9C34C /* Debug */,
+				01023D4D2254434A00E9C34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01023D6F2254481800E9C34C /* Build configuration list for PBXNativeTarget "OptionSelector tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01023D702254481800E9C34C /* Debug */,
+				01023D712254481800E9C34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01023D722254481800E9C34C /* Build configuration list for PBXNativeTarget "OptionSelector tvOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01023D732254481800E9C34C /* Debug */,
+				01023D742254481800E9C34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01023D86225448D200E9C34C /* Build configuration list for PBXNativeTarget "OptionSelector watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01023D87225448D200E9C34C /* Debug */,
+				01023D88225448D200E9C34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		01FE0D2F2251627700D88D84 /* Build configuration list for PBXProject "OptionSelector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
