@@ -11,3 +11,10 @@ let selector = MultiOptionSelector<Int>([1, 2, 3, 4, 5, 6]) { selected in
 let optionViewController = OptionViewController<Int>()
 optionViewController.selector = AnyOptionSelector<Int>(selector)
 PlaygroundPage.current.liveView = optionViewController
+
+class DarkOptionViewController<T: OptionSelectorCell>: OptionViewController<T> {
+
+    override func styleView() {
+        self.t
+    }
+}

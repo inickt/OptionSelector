@@ -13,7 +13,7 @@ public protocol OptionSelector {
     associatedtype OptionType: Equatable
 
     var options: [OptionType] { get }
-    var selected: [OptionType] { get set }
+    var selected: [OptionType] { get }
     var selectedIndices: Set<Int> { get }
     var callback: (([OptionType]) -> Void)? { get }
     subscript(index: Int) -> OptionType? { get }
@@ -29,14 +29,7 @@ public protocol OptionSelector {
 public extension OptionSelector {
 
     var selected: [OptionType] {
-        set {
-            selected.forEach {
-                self.select(option: $0)
-            }
-        }
-        get {
-            return self.selectedIndices.map { self.options[$0] }
-        }
+        return self.selectedIndices.map { self.options[$0] }
     }
 
     subscript(index: Int) -> OptionType? {

@@ -98,8 +98,8 @@
 		01FE0D452251640100D88D84 /* MultiOptionSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MultiOptionSelector.swift; path = OptionSelector/MultiOptionSelector.swift; sourceTree = "<group>"; };
 		01FE0D472251640D00D88D84 /* SingleOptionSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SingleOptionSelector.swift; path = OptionSelector/SingleOptionSelector.swift; sourceTree = "<group>"; };
 		01FE0D4B225164EE00D88D84 /* SingularOptionSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SingularOptionSelector.swift; path = OptionSelector/SingularOptionSelector.swift; sourceTree = "<group>"; };
-		01FE0D4F22516C9E00D88D84 /* OptionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OptionTableViewController.swift; path = ../OptionSelector/iOS/OptionTableViewController.swift; sourceTree = "<group>"; };
-		01FE0D5122516CF900D88D84 /* OptionSelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OptionSelectorCell.swift; path = ../OptionSelector/iOS/OptionSelectorCell.swift; sourceTree = "<group>"; };
+		01FE0D4F22516C9E00D88D84 /* OptionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionTableViewController.swift; sourceTree = "<group>"; };
+		01FE0D5122516CF900D88D84 /* OptionSelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionSelectorCell.swift; sourceTree = "<group>"; };
 		01FE0D5E2251788000D88D84 /* OptionSelector iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OptionSelector iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01FE0D622251788000D88D84 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		01FE0D69225178CB00D88D84 /* TestMultiOptionSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMultiOptionSelector.swift; sourceTree = "<group>"; };
@@ -167,14 +167,16 @@
 				01FE0D5122516CF900D88D84 /* OptionSelectorCell.swift */,
 				01FE0D4F22516C9E00D88D84 /* OptionTableViewController.swift */,
 			);
-			path = iOS;
+			name = iOS;
+			path = OptionSelector/iOS;
 			sourceTree = "<group>";
 		};
 		01023D582254476400E9C34C /* macOS */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = macOS;
+			name = macOS;
+			path = OptionSelector/macOS;
 			sourceTree = "<group>";
 		};
 		0130C5DA2251A50C00609F6D /* Supporting Files */ = {
