@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "OptionSelector"
-  spec.version      = "0.0.2"
+  spec.version      = "0.1.0"
   spec.summary      = "Easily manage selecing item(s) from a list or array."
   spec.homepage     = "https://github.com/inickt/OptionSelector"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
@@ -10,5 +10,5 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5"
   spec.ios.deployment_target = "8.0"
   spec.source       = { :git => "https://github.com/inickt/OptionSelector.git", :tag => spec.version }
-  spec.source_files  = "Source/OptionSelector/**/*.swift"
+  spec.source_files  = "Source/**/*.{h,swift}"
 end

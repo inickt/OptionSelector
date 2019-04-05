@@ -11,6 +11,6 @@ import UIKit
 public protocol OptionSelectorCell: Equatable {
 
     var title: String { get }
-    var description: String? { get }
+    var description: String { get }
     var image: UIImage? { get }
 }
