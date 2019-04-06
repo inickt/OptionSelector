@@ -34,20 +34,6 @@
                ReferencedContainer = "container:OptionSelector.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "01FE0D5522516F0D00D88D84"
-               BuildableName = "SwiftLint"
-               BlueprintName = "SwiftLint"
-               ReferencedContainer = "container:OptionSelector.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
