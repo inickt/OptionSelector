@@ -8,8 +8,7 @@ addons:
 stages:
   - lint
   - test
-  # - name: docs
-  #   if: branch = master
+  - docs
 
 jobs:  
   include:
@@ -22,6 +21,17 @@ jobs:
       xcode_project: OptionSelector.xcodeproj
       xcode_scheme: OptionSelector iOS
       xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone Xs
-    # - stage: docs
-    #   name: "Jazzy Documentation"
-    
+    - stage: docs
+      name: "Jazzy"
+      script:
+        - jazzy
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  local_dir: docs
+  committer_from_gh: true
+  on:
+    branch: master
