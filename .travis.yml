@@ -1,18 +1,16 @@
 language: objective-c
 osx_image: xcode10.2
-addons:
-  homebrew:
-    packages:
-    - swiftlint
+# addons:
+#   homebrew:
+#     packages:
+#     - swiftlint
 
-script: 
-  - swiftlint
-
-xcode_project: OptionSelector.xcodeproj
-xcode_scheme: OptionSelector iOS
-xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone Xs
+# xcode_project: OptionSelector.xcodeproj
+# xcode_scheme: OptionSelector iOS
+# xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone Xs
 
 script:
+  # - swiftlint
   - bundle exec jazzy
 
 deploy:
@@ -21,6 +19,6 @@ deploy:
   github_token: $GITHUB_TOKEN
   keep_history: true
   local_dir: docs
-  committer_from_gh: true
+  email: bot@nickt.dev
   on:
     branch: master
