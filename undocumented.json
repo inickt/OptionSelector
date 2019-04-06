@@ -528,69 +528,69 @@
     {
       "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionTableViewController.swift",
       "line": 16,
-      "symbol": "OptionViewController.init(_:)",
+      "symbol": "OptionViewController.init(_:style:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionTableViewController.swift",
-      "line": 20,
-      "symbol": "OptionViewController.init(selector:)",
+      "line": 21,
+      "symbol": "OptionViewController.init(selector:style:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionTableViewController.swift",
-      "line": 25,
+      "line": 26,
       "symbol": "OptionViewController.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionTableViewController.swift",
-      "line": 29,
+      "line": 30,
       "symbol": "OptionViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionTableViewController.swift",
-      "line": 34,
+      "line": 35,
       "symbol": "OptionViewController.tableView(_:numberOfRowsInSection:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionTableViewController.swift",
-      "line": 38,
+      "line": 39,
       "symbol": "OptionViewController.tableView(_:cellForRowAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionTableViewController.swift",
-      "line": 49,
+      "line": 50,
       "symbol": "OptionViewController.tableView(_:didSelectRowAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionTableViewController.swift",
-      "line": 59,
+      "line": 60,
       "symbol": "OptionViewController.defaultCellStyle",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionTableViewController.swift",
-      "line": 63,
+      "line": 64,
       "symbol": "OptionViewController.styleView()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionTableViewController.swift",
-      "line": 65,
+      "line": 66,
       "symbol": "OptionViewController.createCell()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
