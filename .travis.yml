@@ -1,8 +1,6 @@
 language: objective-c
 osx_image: xcode10.2
 
-cache: bundler
-
 stages:
   - test
   - docs/linting
@@ -18,6 +16,10 @@ jobs:
       xcode_project: OptionSelector.xcodeproj
       xcode_scheme: OptionSelector macOS
       xcode_destination: platform=macOS
+    - name: "tvOS Unit Tests"
+      xcode_project: OptionSelector.xcodeproj
+      xcode_scheme: OptionSelector tvOS
+      xcode_destination: platform=tvOS Simulator,OS=12.2,name=Apple TV 4k
     - stage: docs/linting
       name: "SwiftLint"
       addons:
