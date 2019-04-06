@@ -5,26 +5,15 @@ addons:
     packages:
     - swiftlint
 
-stages:
-  - lint
-  - test
-  - docs
+script: 
+  - swiftlint
 
-jobs:  
-  include:
-    - stage: lint
-      name: "SwiftLint"
-      script: 
-        - swiftlint
-    - stage: test
-      name: "Unit Tests"
-      xcode_project: OptionSelector.xcodeproj
-      xcode_scheme: OptionSelector iOS
-      xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone Xs
-    - stage: docs
-      name: "Jazzy"
-      script:
-        - jazzy
+xcode_project: OptionSelector.xcodeproj
+xcode_scheme: OptionSelector iOS
+xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone Xs
+
+script:
+  - bundle exec jazzy
 
 deploy:
   provider: pages
