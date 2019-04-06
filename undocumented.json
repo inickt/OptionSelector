@@ -1,600 +1,600 @@
 {
   "warnings": [
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/AnyOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/AnyOptionSelector.swift",
       "line": 11,
       "symbol": "AnyOptionSelector",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/AnyOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/AnyOptionSelector.swift",
       "line": 23,
       "symbol": "AnyOptionSelector.init(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/AnyOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/AnyOptionSelector.swift",
       "line": 35,
       "symbol": "AnyOptionSelector.options",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/AnyOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/AnyOptionSelector.swift",
       "line": 39,
       "symbol": "AnyOptionSelector.select(index:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/AnyOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/AnyOptionSelector.swift",
       "line": 43,
       "symbol": "AnyOptionSelector.select(option:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/AnyOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/AnyOptionSelector.swift",
       "line": 47,
       "symbol": "AnyOptionSelector.deselect(index:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/AnyOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/AnyOptionSelector.swift",
       "line": 51,
       "symbol": "AnyOptionSelector.deselect(option:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/AnyOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/AnyOptionSelector.swift",
       "line": 55,
       "symbol": "AnyOptionSelector.isSelected(index:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/AnyOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/AnyOptionSelector.swift",
       "line": 59,
       "symbol": "AnyOptionSelector.isSelected(option:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/ConstrainedOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/ConstrainedOptionSelector.swift",
       "line": 11,
       "symbol": "ConstrainedOptionSelector",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/ConstrainedOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/ConstrainedOptionSelector.swift",
       "line": 13,
       "symbol": "ConstrainedOptionSelector.SelectedType",
       "symbol_kind": "source.lang.swift.decl.associatedtype",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/ConstrainedOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/ConstrainedOptionSelector.swift",
       "line": 15,
       "symbol": "ConstrainedOptionSelector.selected",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/ConstrainedOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/ConstrainedOptionSelector.swift",
       "line": 16,
       "symbol": "ConstrainedOptionSelector.callback",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/MultiOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/MultiOptionSelector.swift",
       "line": 11,
       "symbol": "MultiOptionSelector",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/MultiOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/MultiOptionSelector.swift",
       "line": 13,
       "symbol": "MultiOptionSelector.SelectedType",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/MultiOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/MultiOptionSelector.swift",
       "line": 15,
       "symbol": "MultiOptionSelector.options",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/MultiOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/MultiOptionSelector.swift",
       "line": 16,
       "symbol": "MultiOptionSelector.selected",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/MultiOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/MultiOptionSelector.swift",
       "line": 19,
       "symbol": "MultiOptionSelector.selectedIndices",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/MultiOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/MultiOptionSelector.swift",
       "line": 24,
       "symbol": "MultiOptionSelector.callback",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/MultiOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/MultiOptionSelector.swift",
       "line": 26,
       "symbol": "MultiOptionSelector.init(_:selected:callback:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/MultiOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/MultiOptionSelector.swift",
       "line": 32,
       "symbol": "MultiOptionSelector.select(index:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/MultiOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/MultiOptionSelector.swift",
       "line": 39,
       "symbol": "MultiOptionSelector.select(option:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/MultiOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/MultiOptionSelector.swift",
       "line": 43,
       "symbol": "MultiOptionSelector.deselect(index:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/MultiOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/MultiOptionSelector.swift",
       "line": 47,
       "symbol": "MultiOptionSelector.deselect(option:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/MultiOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/MultiOptionSelector.swift",
       "line": 51,
       "symbol": "MultiOptionSelector.isSelected(index:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/MultiOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/MultiOptionSelector.swift",
       "line": 55,
       "symbol": "MultiOptionSelector.isSelected(option:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/OptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/OptionSelector.swift",
       "line": null,
       "symbol": "OptionSelector",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/OptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/OptionSelector.swift",
       "line": 11,
       "symbol": "OptionSelector",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/OptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/OptionSelector.swift",
       "line": 13,
       "symbol": "OptionSelector.OptionType",
       "symbol_kind": "source.lang.swift.decl.associatedtype",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/OptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/OptionSelector.swift",
       "line": 15,
       "symbol": "OptionSelector.options",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/OptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/OptionSelector.swift",
       "line": 16,
       "symbol": "OptionSelector.subscript(_:)",
       "symbol_kind": "source.lang.swift.decl.function.subscript",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/OptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/OptionSelector.swift",
       "line": 18,
       "symbol": "OptionSelector.select(index:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/OptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/OptionSelector.swift",
       "line": 19,
       "symbol": "OptionSelector.select(option:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/OptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/OptionSelector.swift",
       "line": 20,
       "symbol": "OptionSelector.deselect(index:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/OptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/OptionSelector.swift",
       "line": 21,
       "symbol": "OptionSelector.deselect(option:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/OptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/OptionSelector.swift",
       "line": 22,
       "symbol": "OptionSelector.toggle(index:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/OptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/OptionSelector.swift",
       "line": 23,
       "symbol": "OptionSelector.toggle(option:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/OptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/OptionSelector.swift",
       "line": 24,
       "symbol": "OptionSelector.isSelected(index:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/OptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/OptionSelector.swift",
       "line": 25,
       "symbol": "OptionSelector.isSelected(option:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/OptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/OptionSelector.swift",
       "line": 30,
       "symbol": "OptionSelector.subscript(_:)",
       "symbol_kind": "source.lang.swift.decl.function.subscript",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/OptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/OptionSelector.swift",
       "line": 34,
       "symbol": "OptionSelector.toggle(index:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/OptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/OptionSelector.swift",
       "line": 42,
       "symbol": "OptionSelector.toggle(option:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingleOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingleOptionSelector.swift",
       "line": 11,
       "symbol": "SingleOptionSelector",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingleOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingleOptionSelector.swift",
       "line": 13,
       "symbol": "SingleOptionSelector.SelectedType",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingleOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingleOptionSelector.swift",
       "line": 15,
       "symbol": "SingleOptionSelector.options",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingleOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingleOptionSelector.swift",
       "line": 16,
       "symbol": "SingleOptionSelector.selected",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingleOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingleOptionSelector.swift",
       "line": 22,
       "symbol": "SingleOptionSelector.selectedIndex",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingleOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingleOptionSelector.swift",
       "line": 23,
       "symbol": "SingleOptionSelector.callback",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingleOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingleOptionSelector.swift",
       "line": 25,
       "symbol": "SingleOptionSelector.init(_:selected:callback:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingleOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingleOptionSelector.swift",
       "line": 33,
       "symbol": "SingleOptionSelector.select(index:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingleOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingleOptionSelector.swift",
       "line": 40,
       "symbol": "SingleOptionSelector.select(option:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingleOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingleOptionSelector.swift",
       "line": 47,
       "symbol": "SingleOptionSelector.deselect(index:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingleOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingleOptionSelector.swift",
       "line": 53,
       "symbol": "SingleOptionSelector.deselect(option:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingleOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingleOptionSelector.swift",
       "line": 59,
       "symbol": "SingleOptionSelector.isSelected(index:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingleOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingleOptionSelector.swift",
       "line": 63,
       "symbol": "SingleOptionSelector.isSelected(option:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingularOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingularOptionSelector.swift",
       "line": 11,
       "symbol": "SingularOptionSelector",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingularOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingularOptionSelector.swift",
       "line": 13,
       "symbol": "SingularOptionSelector.SelectedType",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingularOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingularOptionSelector.swift",
       "line": 15,
       "symbol": "SingularOptionSelector.options",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingularOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingularOptionSelector.swift",
       "line": 16,
       "symbol": "SingularOptionSelector.selectedIndex",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingularOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingularOptionSelector.swift",
       "line": 22,
       "symbol": "SingularOptionSelector.selected",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingularOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingularOptionSelector.swift",
       "line": 25,
       "symbol": "SingularOptionSelector.callback",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingularOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingularOptionSelector.swift",
       "line": 27,
       "symbol": "SingularOptionSelector.init(_:selected:callback:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingularOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingularOptionSelector.swift",
       "line": 36,
       "symbol": "SingularOptionSelector.select(index:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingularOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingularOptionSelector.swift",
       "line": 43,
       "symbol": "SingularOptionSelector.select(option:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingularOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingularOptionSelector.swift",
       "line": 50,
       "symbol": "SingularOptionSelector.deselect(index:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingularOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingularOptionSelector.swift",
       "line": 52,
       "symbol": "SingularOptionSelector.deselect(option:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingularOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingularOptionSelector.swift",
       "line": 54,
       "symbol": "SingularOptionSelector.isSelected(index:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/SingularOptionSelector.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/SingularOptionSelector.swift",
       "line": 58,
       "symbol": "SingularOptionSelector.isSelected(option:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/iOS/OptionSelectorCell.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionSelectorCell.swift",
       "line": 11,
       "symbol": "OptionSelectorCell",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/iOS/OptionSelectorCell.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionSelectorCell.swift",
       "line": 13,
       "symbol": "OptionSelectorCell.title",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/iOS/OptionSelectorCell.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionSelectorCell.swift",
       "line": 14,
       "symbol": "OptionSelectorCell.description",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/iOS/OptionSelectorCell.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionSelectorCell.swift",
       "line": 15,
       "symbol": "OptionSelectorCell.image",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/iOS/OptionTableViewController.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionTableViewController.swift",
       "line": 11,
       "symbol": "OptionViewController",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/iOS/OptionTableViewController.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionTableViewController.swift",
       "line": 13,
       "symbol": "OptionViewController.selector",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/iOS/OptionTableViewController.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionTableViewController.swift",
       "line": 14,
       "symbol": "OptionViewController.popOnSelection",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/iOS/OptionTableViewController.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionTableViewController.swift",
       "line": 16,
       "symbol": "OptionViewController.init(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/iOS/OptionTableViewController.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionTableViewController.swift",
       "line": 20,
       "symbol": "OptionViewController.init(selector:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/iOS/OptionTableViewController.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionTableViewController.swift",
       "line": 25,
       "symbol": "OptionViewController.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/iOS/OptionTableViewController.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionTableViewController.swift",
       "line": 29,
       "symbol": "OptionViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/iOS/OptionTableViewController.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionTableViewController.swift",
       "line": 34,
       "symbol": "OptionViewController.tableView(_:numberOfRowsInSection:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/iOS/OptionTableViewController.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionTableViewController.swift",
       "line": 38,
       "symbol": "OptionViewController.tableView(_:cellForRowAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/iOS/OptionTableViewController.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionTableViewController.swift",
       "line": 49,
       "symbol": "OptionViewController.tableView(_:didSelectRowAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/iOS/OptionTableViewController.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionTableViewController.swift",
       "line": 59,
       "symbol": "OptionViewController.defaultCellStyle",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/iOS/OptionTableViewController.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionTableViewController.swift",
       "line": 63,
       "symbol": "OptionViewController.styleView()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/nick/Developer/GitHub/OptionSelector/Source/iOS/OptionTableViewController.swift",
+      "file": "/Users/travis/build/inickt/OptionSelector/Source/iOS/OptionTableViewController.swift",
       "line": 65,
       "symbol": "OptionViewController.createCell()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     }
   ],
-  "source_directory": "/Users/nick/Developer/GitHub/OptionSelector"
+  "source_directory": "/Users/travis/build/inickt/OptionSelector"
 }
