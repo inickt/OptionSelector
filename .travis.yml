@@ -1,24 +1,41 @@
 language: objective-c
 osx_image: xcode10.2
-# addons:
-#   homebrew:
-#     packages:
-#     - swiftlint
 
-# xcode_project: OptionSelector.xcodeproj
-# xcode_scheme: OptionSelector iOS
-# xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone Xs
+cache: bundler
 
-script:
-  # - swiftlint
-  - bundle exec jazzy
+stages:
+  - test
+  - docs/linting
 
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  keep_history: true
-  local_dir: docs
-  email: bot@nickt.dev
-  on:
-    branch: master
+jobs:  
+  include:
+    - stage: test
+      name: "iOS Unit Tests"
+      xcode_project: OptionSelector.xcodeproj
+      xcode_scheme: OptionSelector iOS
+      xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone Xs
+    - name: "macOS Unit Tests"
+      xcode_project: OptionSelector.xcodeproj
+      xcode_scheme: OptionSelector macOS
+      xcode_destination: platform=macOS
+    - stage: docs/linting
+      name: "SwiftLint"
+      addons:
+        homebrew:
+          packages:
+          - swiftlint
+      script: 
+        - swiftlint
+    - name: "Jazzy"
+      script:
+        - gem install jazzy
+        - jazzy
+      deploy:
+        provider: pages
+        skip_cleanup: true
+        github_token: $GITHUB_TOKEN
+        keep_history: true
+        local_dir: docs
+        email: bot@nickt.dev
+        on:
+          branch: master
