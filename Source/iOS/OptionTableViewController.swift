@@ -15,7 +15,7 @@ open class OptionViewController<OptionType: OptionSelectorCell>: UITableViewCont
 
     public convenience init<Selector: OptionSelector>(_ selector: Selector,
                                           style: UITableView.Style = .plain) where Selector.OptionType == OptionType {
-        self.init(selector: AnyOptionSelector(selector))
+        self.init(selector: AnyOptionSelector(selector), style: style)
     }
 
     public init(selector: AnyOptionSelector<OptionType>, style: UITableView.Style = .plain) {
