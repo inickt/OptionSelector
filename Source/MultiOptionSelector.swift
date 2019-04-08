@@ -37,15 +37,18 @@ final public class MultiOptionSelector<OptionType: Equatable>: ConstrainedOption
     }
 
     public func select(option: OptionType) {
-
+        self.selectedIndices.formUnion(options.indices.filter { options[$0] == option })
     }
 
     public func deselect(index: Int) {
-
+        guard self.options.indices ~= index else {
+            return
+        }
+        self.selectedIndices.remove(index)
     }
 
     public func deselect(option: OptionType) {
-
+        self.selectedIndices.formIntersection(options.indices.filter { options[$0] == option })
     }
 
     public func isSelected(index: Int) -> Bool {

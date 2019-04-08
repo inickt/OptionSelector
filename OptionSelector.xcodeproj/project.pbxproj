@@ -47,7 +47,7 @@
 		01023DAB2256C2CB00E9C34C /* AnyOptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D432251639800D88D84 /* AnyOptionSelector.swift */; };
 		01023DAD2256C33600E9C34C /* SingleOptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D472251640D00D88D84 /* SingleOptionSelector.swift */; };
 		01023DAE2256C51200E9C34C /* MultiOptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D452251640100D88D84 /* MultiOptionSelector.swift */; };
-		01023DB02256C9BF00E9C34C /* OptionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01023DAF2256C9BF00E9C34C /* OptionTableViewController.swift */; };
+		01023DB02256C9BF00E9C34C /* OptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01023DAF2256C9BF00E9C34C /* OptionViewController.swift */; };
 		01FE0D3A2251627700D88D84 /* OptionSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 01FE0D382251627700D88D84 /* OptionSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01FE0D42225162C900D88D84 /* OptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D41225162C900D88D84 /* OptionSelector.swift */; };
 		01FE0D442251639800D88D84 /* AnyOptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D432251639800D88D84 /* AnyOptionSelector.swift */; };
@@ -95,7 +95,7 @@
 		01023D81225448D200E9C34C /* OptionSelector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptionSelector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		01023D84225448D200E9C34C /* Info-watchOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
 		01023DA32256BE8600E9C34C /* ConstrainedOptionSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstrainedOptionSelector.swift; sourceTree = "<group>"; };
-		01023DAF2256C9BF00E9C34C /* OptionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionTableViewController.swift; sourceTree = "<group>"; };
+		01023DAF2256C9BF00E9C34C /* OptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionViewController.swift; sourceTree = "<group>"; };
 		01FE0D352251627700D88D84 /* OptionSelector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptionSelector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		01FE0D382251627700D88D84 /* OptionSelector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptionSelector.h; sourceTree = "<group>"; };
 		01FE0D392251627700D88D84 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
@@ -170,7 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				01FE0D5122516CF900D88D84 /* OptionSelectorCell.swift */,
-				01023DAF2256C9BF00E9C34C /* OptionTableViewController.swift */,
+				01023DAF2256C9BF00E9C34C /* OptionViewController.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -612,7 +612,7 @@
 			files = (
 				01FE0D442251639800D88D84 /* AnyOptionSelector.swift in Sources */,
 				01FE0D482251640D00D88D84 /* SingleOptionSelector.swift in Sources */,
-				01023DB02256C9BF00E9C34C /* OptionTableViewController.swift in Sources */,
+				01023DB02256C9BF00E9C34C /* OptionViewController.swift in Sources */,
 				01FE0D5222516CF900D88D84 /* OptionSelectorCell.swift in Sources */,
 				01FE0D462251640100D88D84 /* MultiOptionSelector.swift in Sources */,
 				01FE0D42225162C900D88D84 /* OptionSelector.swift in Sources */,
