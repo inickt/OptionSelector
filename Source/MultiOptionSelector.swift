@@ -8,15 +8,15 @@
 
 import Foundation
 
-final public class MultiOptionSelector<OptionType: Equatable>: ConstrainedOptionSelector {
+public final class MultiOptionSelector<OptionType: Equatable>: ConstrainedOptionSelector {
 
     public typealias SelectedType = [OptionType]
 
-    private(set) public var options: [OptionType]
+    public private(set) var options: [OptionType]
     public var selected: [OptionType] {
         return selectedIndices.map { self.options[$0] }
     }
-    private(set) public var selectedIndices: Set<Int> {
+    public private(set) var selectedIndices: Set<Int> {
         didSet {
             self.callback?(self.selected)
         }
