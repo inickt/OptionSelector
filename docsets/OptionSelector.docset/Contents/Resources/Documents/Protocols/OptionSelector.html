@@ -14,7 +14,7 @@
     <a title="OptionSelector Protocol Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">OptionSelector Docs</a> (0% documented)</p>
+        <p><a href="../index.html">OptionSelector Docs</a> (51% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -78,7 +78,7 @@
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>Interface for selecting objects based on index or reference.</p>
 
           </section>
           <section class="section task-group-section">
@@ -97,7 +97,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Type of the options to be able to select.</p>
 
                       </div>
                       <div class="declaration">
@@ -124,7 +124,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Array of options that can be selected.</p>
 
                       </div>
                       <div class="declaration">
@@ -154,13 +154,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Shortcut to get the item at the given index in the array of options.</p>
 
                       </div>
                       <h4>Default Implementation</h4>
                       <div class="default_impl abstract">
-                        <p>Undocumented</p>
-
+                        
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -169,6 +168,25 @@
                           <pre class="highlight swift"><code><span class="nf">subscript</span><span class="p">(</span><span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/OptionSelector.html#/s:14OptionSelectorAAP0A4TypeQa">OptionType</a></span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>index</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Index of element to return. Must be within array bounds.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -186,7 +204,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Select the given index in the options.</p>
 
                       </div>
                       <div class="declaration">
@@ -213,7 +231,9 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Select the option in the options array.</p>
+
+<p>Based on the <code><a href="../Protocols/OptionSelector.html#/s:14OptionSelectorAAP0A4TypeQa">OptionType</a></code>s <code>Equatable</code> implementation.</p>
 
                       </div>
                       <div class="declaration">
@@ -223,6 +243,25 @@
                           <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">select</span><span class="p">(</span><span class="nv">option</span><span class="p">:</span> <span class="kt"><a href="../Protocols/OptionSelector.html#/s:14OptionSelectorAAP0A4TypeQa">OptionType</a></span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>option</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Option to select</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -240,7 +279,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Deselect the given index in the options.</p>
 
                       </div>
                       <div class="declaration">
@@ -267,7 +306,9 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Deelect the option in the options array.</p>
+
+<p>Based on the <code><a href="../Protocols/OptionSelector.html#/s:14OptionSelectorAAP0A4TypeQa">OptionType</a></code>s <code>Equatable</code> implementation.</p>
 
                       </div>
                       <div class="declaration">
@@ -277,6 +318,25 @@
                           <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">deselect</span><span class="p">(</span><span class="nv">option</span><span class="p">:</span> <span class="kt"><a href="../Protocols/OptionSelector.html#/s:14OptionSelectorAAP0A4TypeQa">OptionType</a></span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>option</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Option to deselect</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -297,12 +357,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Toggles the selected state of the given index in the options.</p>
 
                       </div>
                       <h4>Default Implementation</h4>
                       <div class="default_impl abstract">
-                        <p>Undocumented</p>
+                        <p>Based on implementation of <code>isSelected:index</code>, <code>deselect:index</code>, and<code>select:index</code>.</p>
+
+<p>If <code>isSelected:index</code>, then <code>deselect:index</code> is called, otherwise <code>select:index</code> is called.</p>
 
                       </div>
                       <div class="declaration">
@@ -332,12 +394,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Toggle the option in the array.</p>
+
+<p>Based on the <code><a href="../Protocols/OptionSelector.html#/s:14OptionSelectorAAP0A4TypeQa">OptionType</a></code>s <code>Equatable</code> implementation.</p>
 
                       </div>
                       <h4>Default Implementation</h4>
                       <div class="default_impl abstract">
-                        <p>Undocumented</p>
+                        <p>Based on implementation of <code>isSelected:option</code>, <code>deselect:option</code>, and<code>select:option</code>.</p>
+
+<p>If <code>isSelected:option</code>, then <code>deselect:option</code> is called, otherwise <code>select:option</code> is called.</p>
 
                       </div>
                       <div class="declaration">
@@ -347,6 +413,25 @@
                           <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">toggle</span><span class="p">(</span><span class="nv">option</span><span class="p">:</span> <span class="kt"><a href="../Protocols/OptionSelector.html#/s:14OptionSelectorAAP0A4TypeQa">OptionType</a></span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>option</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Option to toggle</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -364,7 +449,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Is the given index selected?</p>
 
                       </div>
                       <div class="declaration">
@@ -391,7 +476,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Is the given option selected?</p>
 
                       </div>
                       <div class="declaration">
@@ -410,7 +495,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2019 <a class="link" href="https://github.com/inickt/OptionSelector" target="_blank" rel="external">Nick Thompson</a>. All rights reserved. (Last updated: 2019-04-08)</p>
+          <p>&copy; 2019 <a class="link" href="https://github.com/inickt/OptionSelector" target="_blank" rel="external">Nick Thompson</a>. All rights reserved. (Last updated: 2019-04-09)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
