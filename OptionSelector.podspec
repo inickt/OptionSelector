@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "OptionSelector"
-  spec.version      = "0.2.2"
+  spec.version      = "0.2.3"
   spec.summary      = "Easily manage selecing item(s) from a list or array."
   spec.homepage     = "https://github.com/inickt/OptionSelector"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
